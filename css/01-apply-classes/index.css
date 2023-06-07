@@ -1,0 +1,109 @@
+/* Color-related classes */
+.text-primary {
+  color: #007bff;
+}
+.text-secondary {
+  color: #6c757d;
+}
+.text-success {
+  color: #28a745;
+}
+.text-info {
+  color: #17a2b8;
+}
+.text-warning {
+  color: #ffc107;
+}
+.text-danger {
+  color: #dc3545;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-dark {
+  color: #343a40;
+}
+
+/* Background-related classes */
+.bg-primary {
+  background-color: #007bff;
+}
+.bg-secondary {
+  background-color: #6c757d;
+}
+.bg-success {
+  background-color: #28a745;
+}
+.bg-info {
+  background-color: #17a2b8;
+}
+.bg-warning {
+  background-color: #ffc107;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+
+/* Text-related classes */
+.text-justify {
+  text-align: justify;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Border-related classes */
+.border {
+  border: 2px solid #dee2e6;
+}
+.rounded-sm {
+  border-radius: 0.25rem;
+}
+.rounded {
+  border-radius: 1rem;
+}
+.rounded-lg {
+  border-radius: 2rem;
+}
+.rounded-circle {
+  border-radius: 50%;
+}
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+/* Spacing-related classes */
+.m-1 {
+  margin: 0.25rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-3 {
+  margin: 1rem;
+}
+.m-4 {
+  margin: 1.5rem;
+}
+.m-5 {
+  margin: 3rem;
+}
+
+/* Display-related classes */
+.flex {
+  display: flex;
+}
