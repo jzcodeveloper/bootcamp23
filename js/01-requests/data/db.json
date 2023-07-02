@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Javier",
+      "lastName": "Zabala",
+      "email": "johndoe0@test.com",
+      "password": "123456"
+    },
+    {
+      "password": "12345678",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "description": "Post description",
+      "author": "jzcodeveloper"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "author": "jzcodeveloper",
+      "title": "Book 1",
+      "publishedDate": "2023-01-01"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "price": 1500,
+      "category": "Smartphones"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Honda",
+      "model": "Civic",
+      "price": 10000,
+      "year": 2015
+    }
+  ]
+}
