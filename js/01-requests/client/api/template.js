@@ -1,6 +1,6 @@
-export class User {
+class User {
   constructor() {
-    this.baseUrl = "";
+    this.baseUrl = "http://localhost:3000/users";
   }
 
   /**
@@ -9,6 +9,13 @@ export class User {
    * @method GET
    */
   async getAll() {}
+
+  /**
+   * @desc Get user by id
+   * @route /users/:id
+   * @method GET
+   */
+  async getById() {}
 
   /**
    * @desc Creates a user
@@ -25,9 +32,11 @@ export class User {
   async update(id, payload) {}
 
   /**
-   * @desc Deletes a user
+   * @desc Removes a user
    * @route /users/:id
    * @method DELETE
    */
-  async delete(id) {}
+  async remove(id) {}
 }
+
+export default new User();
